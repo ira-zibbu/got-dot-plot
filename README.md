@@ -20,9 +20,11 @@ reverse-complementary) between the two. You can immediately see:
 
 ## Installation
 
-Requires Python ≥ 3.14. Install with [uv](https://docs.astral.sh/uv/):
+Install directly from GitHub. [uv](https://docs.astral.sh/uv/) is the preferred Python environment + package manager, but `pip` and `pyenv` or other equivalent tools also work.
 
 ```bash
+git clone https://github.com/ira-zibbu/got-dot-plot.git --depth=1
+cd got-dot-plot
 uv tool install --editable .
 ```
 
